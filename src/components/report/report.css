@@ -1,0 +1,19 @@
+th{
+    background-color: rgb(73, 73, 218);
+}
+.tableStats{
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.show{
+    display: block;
+}
+.chartContainer svg{
+
+    margin-top:50px;
+    background-color:white;
+    margin-left:auto;
+    margin-right: auto;
+
+}

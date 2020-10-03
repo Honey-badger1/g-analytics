@@ -1,0 +1,15 @@
+.bars{
+    fill: steelblue;
+    height: 20px;
+}
+.second svg {
+   background-color:white;
+    width:600;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+
+body{
+    justify-content: center;
+}
