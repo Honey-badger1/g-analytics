@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/g-analytics/static/css/main.0a562a19.chunk.css",
+    "main.js": "/g-analytics/static/js/main.eab48b4e.chunk.js",
+    "main.js.map": "/g-analytics/static/js/main.eab48b4e.chunk.js.map",
+    "runtime-main.js": "/g-analytics/static/js/runtime-main.7c8de267.js",
+    "runtime-main.js.map": "/g-analytics/static/js/runtime-main.7c8de267.js.map",
+    "static/js/2.dddcd0dc.chunk.js": "/g-analytics/static/js/2.dddcd0dc.chunk.js",
+    "static/js/2.dddcd0dc.chunk.js.map": "/g-analytics/static/js/2.dddcd0dc.chunk.js.map",
+    "index.html": "/g-analytics/index.html",
+    "precache-manifest.534e99601a88d297d293a263a336fd1c.js": "/g-analytics/precache-manifest.534e99601a88d297d293a263a336fd1c.js",
+    "service-worker.js": "/g-analytics/service-worker.js",
+    "static/css/main.0a562a19.chunk.css.map": "/g-analytics/static/css/main.0a562a19.chunk.css.map",
+    "static/js/2.dddcd0dc.chunk.js.LICENSE.txt": "/g-analytics/static/js/2.dddcd0dc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7c8de267.js",
+    "static/js/2.dddcd0dc.chunk.js",
+    "static/css/main.0a562a19.chunk.css",
+    "static/js/main.eab48b4e.chunk.js"
+  ]
+}
