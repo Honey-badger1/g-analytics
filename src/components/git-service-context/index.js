@@ -1,2 +1,4 @@
 import GitServiceContext from './git-service-context';
-export default GitServiceContext;
+import AuthContext from './auth-context';
+export  {GitServiceContext,
+     AuthContext};

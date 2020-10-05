@@ -1,2 +1,6 @@
 import MainPage from './main-page';
-export {MainPage};
+import LoginPage from './login-page';
+import HomePage from './home-page';
+
+export {MainPage,
+LoginPage,HomePage};

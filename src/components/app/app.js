@@ -1,24 +1,46 @@
-import React, {Component} from 'react';
-import {MainPage} from '../pages';
+import React, {Component, useReducer } from 'react';
+import {MainPage, LoginPage, HomePage} from '../pages';
+import { initialState, authentication } from "../../reducers/auth-reducer";
+import {AuthContext} from '../git-service-context';
+
 import './app.css';
 
 
-import { Route, Switch } from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
-export default class App extends Component{
 
+function App(){
  
 
     
 
-render(){
-    return(
-        <>
-        <Switch>
-        <Route path='/' exact component={MainPage }/>
-        </Switch>
-        </>
-    )}
+
+    
+    
+        const [state, dispatch] = useReducer(authentication, initialState);
+
+        return (
+          <AuthContext.Provider
+            value={{
+              state,
+              dispatch
+            }}
+          >
+          <Router>
+            <Switch>
+              <Route path="/login" exact component={LoginPage}/>
+              <Route path="/" exact component={HomePage}/>
+              <Route path="/repo" exact component={MainPage}/>
+            </Switch>
+          </Router>
+          </AuthContext.Provider>
+        );
+ 
+
+    
 
 }
+
+
+export default App;
 

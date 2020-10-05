@@ -1,6 +1,6 @@
 import React from 'react';
 
-import GitServiceContext from '../git-service-context';
+import {GitServiceContext} from '../git-service-context';
 
 
 const WithStoreService =()=>(Wrapped)=>{

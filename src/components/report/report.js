@@ -197,8 +197,7 @@ const mapStateToProps=(state)=>{
 
 const mapDispatchToProps={
     commitsLoaded,
-    clearNewData,
-    dataRequested,
+    dataRequested
     
 }
 

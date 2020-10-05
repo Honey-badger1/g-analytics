@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
 import { Field, reduxForm, formValueSelector } from 'redux-form';
-import {clearNewData, formValues} from '../../actions';
+import { formValues} from '../../actions';
 import myInput from '../my-input';
 import ReportList from '../report';
 
@@ -38,7 +38,7 @@ class InputPanel extends Component{
         <button type='submit' onClick={()=>{
        
           
-          clearNewData();
+        
           formValues({owner,repo}) }}>Submit</button>
         <button type='reset' onClick={reset}>Reset</button>
         </form>
@@ -59,8 +59,7 @@ InputPanel = reduxForm({
   })(InputPanel)
   
   const mapDispatchToProps={
-    formValues,
-    clearNewData
+    formValues
 }
 
   const selector = formValueSelector('selectingFormValues') 
