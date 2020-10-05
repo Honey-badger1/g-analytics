@@ -44,9 +44,12 @@ app.post("/authenticate", (req, res) => {
     })
     .then(response => response.json())
     .then(response => {
+      console.log(res);
       return res.status(200).json(response);
+      
     })
     .catch(error => {
+      console.log(res);
       return res.status(400).json(error);
     });
 });
