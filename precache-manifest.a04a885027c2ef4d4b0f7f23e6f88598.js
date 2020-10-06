@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7ddfb1e2d4d1baa762eedc326e02923b",
+    "revision": "1c6ee67775999d049640b05224b04f6a",
     "url": "/g-analytics/index.html"
   },
   {
-    "revision": "500ce8ff88e2da2e2aa4",
+    "revision": "3dfefa09b19e3b4b028e",
     "url": "/g-analytics/static/css/main.0a562a19.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/g-analytics/static/js/2.14f977bc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "500ce8ff88e2da2e2aa4",
-    "url": "/g-analytics/static/js/main.dce68f8c.chunk.js"
+    "revision": "3dfefa09b19e3b4b028e",
+    "url": "/g-analytics/static/js/main.621f9d18.chunk.js"
   },
   {
     "revision": "94844a6566c38157a613",
