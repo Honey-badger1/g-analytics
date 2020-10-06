@@ -26,11 +26,11 @@ function App(){
               dispatch
             }}
           >
-          <Router>
+          <Router basename={"https://honey-badger1.github.io/g-analytics"} >
             <Switch>
-              <Route path="/login" exact component={LoginPage}/>
-              <Route path="/" exact component={HomePage}/>
-              <Route path="/repo" exact component={MainPage}/>
+              <Route exact path="/login"  component={LoginPage}/>
+              <Route exact path="/" component={HomePage}/>
+              <Route exact path="/repo" component={MainPage}/>
             </Switch>
           </Router>
           </AuthContext.Provider>
