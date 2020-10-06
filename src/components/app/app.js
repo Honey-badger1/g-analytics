@@ -30,6 +30,7 @@ function App(){
             <Switch>
               <Route exact path="/login"  component={LoginPage}/>
               <Route exact path="/" component={MainPage}/>
+              <Route  exact component={MainPage}/>
               <Route exact path="/repo" component={HomePage}/>
             </Switch>
           </Router>
