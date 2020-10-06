@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Redirect } from "react-router-dom";
-
+import { Link } from 'react-router-dom';
 import { AuthContext } from "../git-service-context";
 
 
@@ -23,6 +23,7 @@ export default function HomePage() {
     
       <div className="container">
         <button onClick={()=> handleLogout()}>Logout</button>
+        <Link to ='/'>Statistics</Link>
         <div>
           <div className="content">
             <img src={avatar_url} alt="Avatar"/>
