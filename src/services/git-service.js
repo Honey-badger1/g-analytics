@@ -10,6 +10,8 @@ export default class GitService{
         return await res.json();
     }
 
+
+
      getUser=async(userName,repoName)=> {
         return await this.getResource(`/repos/${userName}/${repoName}/commits`);
     } 

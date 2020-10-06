@@ -2,7 +2,7 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import WithStoreService from '../hoc';
-import {commitsLoaded, clearNewData, dataRequested} from '../../actions';
+import {commitsLoaded, dataRequested} from '../../actions';
 import ListItem from '../list-item';
 import BarChart from '../graphics';
 import Spinner from '../spinner';
